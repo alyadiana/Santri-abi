@@ -1,0 +1,89 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5DC;
+    color: #5D5B5B;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.8;
+}
+
+/* Container Universal */
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Header - PASTI TENGAH */
+header {
+    background-color: #EADDCA !important;
+    padding: 80px 0 !important;
+    text-align: center !important; /* MAKSIMAL KE TENGAH */
+    width: 100% !important;
+    display: block !important; /* Pakai block biar dia menenuhi layar */
+    border-bottom: 2px solid #D2B48C;
+}
+
+header h1, header p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Quote Section */
+.quote-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #FFFDF5;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #8B7355;
+}
+
+/* Content Sections - WARNA CANTIK BERLAPIS */
+.content-box {
+    padding: 80px 0;
+}
+
+.section-light { background-color: #F5F5DC; }
+.section-warm { background-color: #EADDCA; }
+.section-dark { background-color: #D2B48C; color: #3d3d3d; }
+
+h2 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #8B7355;
+    display: inline-block;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Card Testimoni */
+.testi-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* Footer - PASTI TENGAH */
+footer {
+    footer {
+    background-color: #EADDCA !important;
+    padding: 50px 0 !important;
+    text-align: center !important; /* MAKSIMAL KE TENGAH */
+    width: 100% !important;
+    display: block !important;
+}
